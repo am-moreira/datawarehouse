@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: vendas_source
+    schema: public
+    tables:
+      - name: vendas
+        description: Tabela de vendas
+        columns:
+          - name: id
+            type: INTEGER
+            description: ID da venda
+          - name: email
+            type: VARCHAR
+            description: Email do cliente
+          - name: data_venda
+            type: TIMESTAMP
+            description: Data da venda
+          - name: valor
+            type: NUMERIC
+            description: Valor da venda
+          - name: quantidade
+            type: INTEGER
+            description: Quantidade de produtos vendidos
+          - name: produto
+            type: VARCHAR
+            description: Nome do produto

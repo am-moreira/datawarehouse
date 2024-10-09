@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: gold_vendas_7_dias
+    description: "Resumo das vendas dos últimos 7 dias, com total de vendas e quantidades por produto."
+    columns:
+      - name: data_venda
+        description: "Data da venda."
+      - name: produto
+        description: "Nome do produto vendido."
+      - name: valor_total
+        description: "Valor total das vendas para o produto no dia."
+      - name: quantidade_total
+        description: "Quantidade total vendida do produto no dia."
+      - name: total_vendas
+        description: "Total de vendas do produto no dia."
+
+  - name: gold_vendas_por_vendedor
+    description: "Resumo das vendas dos últimos 7 dias, agrupadas por vendedor, com totais de vendas e quantidades."
+    columns:
+      - name: vendedor
+        description: "Email do vendedor."
+      - name: data_venda
+        description: "Data da venda."
+      - name: valor_total
+        description: "Valor total das vendas feitas pelo vendedor no dia."
+      - name: quantidade_total
+        description: "Quantidade total vendida pelo vendedor no dia."
+      - name: total_vendas
+        description: "Total de vendas feitas pelo vendedor no dia."
