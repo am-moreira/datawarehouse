@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: silver_vendas
+    description: "Modelo que filtra os dados de vendas, mantendo apenas vendas válidas e com valor adequado."
+    columns:
+      - name: email
+        description: "Email do cliente que realizou a compra."
+      - name: data_venda
+        description: "Data em que a venda foi realizada."
+      - name: valor
+        description: "Valor da venda, filtrado para estar entre 0 e 8000."
+      - name: quantidade
+        description: "Quantidade de produtos vendidos na transação."
+      - name: produto
+        description: "Nome do produto vendido."
