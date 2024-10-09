@@ -1,7 +1,7 @@
 # Data Warehouse
 
 Este projeto implementa um Data Warehouse utilizando **dbt** (data build tool) com **PostgreSQL**. O objetivo é organizar e transformar dados para análise, facilitando a criação de relatórios e visualizações.
-Esse projeto é um complemento para (Pipeline Gen AI)[https://github.com/am-moreira/pipeline-ai]
+Esse projeto é um complemento para [Pipeline Gen AI](https://github.com/am-moreira/pipeline-ai)
 
 ## Tecnologias Utilizadas
 
@@ -59,9 +59,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 
 ## Licença
 Este projeto está licenciado sob a MIT License.
-
-markdown
-Copiar código
 
 ### Instruções
 
